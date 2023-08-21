@@ -1,0 +1,58 @@
+{
+    "brands":[
+        {
+            "id":0,
+            "name":"Adidas",
+            "logo":"/assets/images/logos/adidas.png",
+            "image": "/assets/images/adidas.jpg"
+        },
+        {
+            "id":1,
+            "name":"Levi's",
+            "logo":"/assets/images/logos/levis.png",
+            "image": "/assets/images/exclusive/levis.jpg"
+        },
+        {
+            "id":2,
+            "name":"Infinix",
+            "logo":"/assets/images/logos/infinix.png",
+            "image": "/assets/images/exclusive/infinix.jpg"
+        },
+        {
+            "id":3,
+            "name":"Itel",
+            "logo":"/assets/images/logos/itel.png",
+            "image": "/assets/images/exclusive/itel.jpg"
+        },
+        {
+            "id":4,
+            "name":"Samsung",
+            "logo":"/assets/images/logos/samsung.png",
+            "image": "/assets/images/exclusive/samsung.jpg"
+        },
+        {
+            "id":5,
+            "name":"Oraimo",
+            "logo":"/assets/images/logos/oraimo.png",
+            "image": "/assets/images/exclusive/oraimo.jpg"
+        },
+        {
+            "id":6,
+            "name":"Nivea",
+            "logo":"/assets/images/logos/nivea.png",
+            "image": "/assets/images/exclusive/nivea.jpg"
+        },
+        {
+            "id":7,
+            "name":"Bacardi",
+            "logo":"/assets/images/logos/bacardi.png",
+            "image": "/assets/images/exclusive/bacardi.jpg"
+        },
+        {
+            "id":8,
+            "name":"Haier Thermocool",
+            "logo":"/assets/images/logos/haier.png",
+            "image": "/assets/images/exclusive/haier.jpg"
+        }
+    ]
+}

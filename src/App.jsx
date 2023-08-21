@@ -2,6 +2,7 @@ import TopBannerComponent from "./components/TopBannerComponent";
 import Navbar from "./components/Navbar";
 import BannerComponent from "./components/BannerComponent";
 import CountdownComponent from "./components/CountdownComponent";
+import BrandPartnersComponent from "./components/BrandPartnersComponent";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       </div>
       <BannerComponent />
       <CountdownComponent />
+      <BrandPartnersComponent />
     </div>
   );
 }
