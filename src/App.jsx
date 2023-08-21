@@ -4,6 +4,8 @@ import BannerComponent from "./components/BannerComponent";
 import CountdownComponent from "./components/CountdownComponent";
 import BrandPartnersComponent from "./components/BrandPartnersComponent";
 import ProductsComponent from "./components/ProductsComponent";
+import PolicyComponent from "./components/PolicyComponent";
+import NewsLetterComponent from "./components/NewsLetterComponent";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <CountdownComponent />
       <BrandPartnersComponent />
       <ProductsComponent />
+      <PolicyComponent />
+      <NewsLetterComponent />
     </div>
   );
 }

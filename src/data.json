@@ -64,5 +64,51 @@
     { "id": 5, "category": "Grocery" },
     { "id": 6, "category": "Health & Beauty" },
     { "id": 7, "category": "Baby Products" }
+  ],
+  "products": [
+    {
+        "id": 0,
+        "name":"Oraimo 1000mAh Power_Bank OPB_P118D",
+        "price": 7600,
+        "discount":0.48,
+        "ratings":205,
+        "jumia_express":true,
+        "official_store":true,
+        "free_delivery":true,
+        "image": "/assets/images/products/power-bank.png"
+    },
+    {
+        "id": 1,
+        "name":"Indomie Noodles 120g. Tasty Nutrition, Good for you",
+        "price": 200,
+        "discount":0,
+        "ratings":75,
+        "jumia_express":true,
+        "official_store":true,
+        "freedelivery":false,
+        "image": "/assets/images/products/indomie.png"
+    },
+    {
+        "id": 2,
+        "name":"Malta Guinness Can 330ml x24",
+        "price": 6400,
+        "discount":0.04,
+        "ratings":496,
+        "jumia_express":true,
+        "official_store":true,
+        "free_delivery":false,
+        "image": "/assets/images/products/malta-guinness.png"
+    },
+    {
+        "id": 3,
+        "name":"LG TV _ 434 inches",
+        "price": 200000,
+        "discount":0.1,
+        "ratings":34,
+        "jumia_express":false,
+        "official_store":false,
+        "free_delivery":false,
+        "image": "/assets/images/products/tv.png"
+    }
   ]
 }
