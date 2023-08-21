@@ -3,10 +3,11 @@ import Navbar from "./components/Navbar";
 import BannerComponent from "./components/BannerComponent";
 import CountdownComponent from "./components/CountdownComponent";
 import BrandPartnersComponent from "./components/BrandPartnersComponent";
+import ProductsComponent from "./components/ProductsComponent";
 
 function App() {
   return (
-    <div className="w-full mx-auto h-screen">
+    <div className="w-full mx-auto h-full">
       <TopBannerComponent />
       <Navbar />
       <div className="pl-4 lg:pl-0 lg:w-[85%] mx-auto py-4 text-xs">
@@ -15,6 +16,7 @@ function App() {
       <BannerComponent />
       <CountdownComponent />
       <BrandPartnersComponent />
+      <ProductsComponent />
     </div>
   );
 }
