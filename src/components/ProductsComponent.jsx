@@ -31,7 +31,9 @@ const ProductsComponent = () => {
           <h3 className="font-semibold">SHIPPED FROM</h3>
           <div className="flex py-1.5">
             <input type="checkbox" className="cursor-pointer" name="" id="" />
-            <p className=" ml-4 bg-blue-700 rounded-sm text-[10px] text-white p-0.5">Shipped from abroad</p>
+            <p className=" ml-4 bg-blue-700 rounded-sm text-[10px] text-white p-0.5">
+              Shipped from abroad
+            </p>
           </div>
           <div className="flex py-1.5">
             <input type="checkbox" className="cursor-pointer" name="" id="" />
@@ -43,7 +45,9 @@ const ProductsComponent = () => {
       <div className="col-span-4 p-3 bg-white">
         <h2 className="font-bold py-3 text-2xl">Official Stores</h2>
         <hr />
-        <p className="text-xs text-gray-400 py-3">{products.length} products found</p>
+        <p className="text-xs text-gray-400 py-3">
+          {products.length} products found
+        </p>
         <hr />
         <div className="grid grid-cols-2 lg:grid-cols-4">
           {products.map((product, index) => (
@@ -64,8 +68,17 @@ const ProductsComponent = () => {
               <p className="text-gray-600 text-xs h-9 font-semibold">
                 {product.name}
               </p>
-              <p className="font-bold">{formatCurrency(product.price)}</p>
-              <div className="flex">
+              <div className="h-10">
+                <p className="font-bold">{formatCurrency(product.price)}</p>
+                {product.discount ? (
+                  <p className="text-xs text-gray-500">
+                    {product.price - product.discount * product.price}
+                  </p>
+                ) : (
+                  ""
+                )}
+              </div>
+              <div className="flex h-5">
                 <img src={starIcon} className="w-4 mx-0.5" alt="" />
                 <img src={starIcon} className="w-4 mx-0.5" alt="" />
                 <img src={starIcon} className="w-4 mx-0.5" alt="" />
