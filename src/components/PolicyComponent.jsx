@@ -1,6 +1,6 @@
 const PolicyComponent = () => {
   return (
-    <div className="w-full p-3 lg:w-[85%] lg:mx-auto bg-white">
+    <div className="w-full p-3 lg:w-[85%] lg:mx-auto mb-16 bg-white">
       <h4 className="text-lg font-bold">
         Discover Authenticity and Affordability at the Official Stores on Jumia
         Nigeria
