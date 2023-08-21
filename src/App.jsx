@@ -5,7 +5,7 @@ import CountdownComponent from "./components/CountdownComponent";
 
 function App() {
   return (
-    <div className="w-full bg-gray-100 h-screen">
+    <div className="w-full mx-auto h-screen">
       <TopBannerComponent />
       <Navbar />
       <div className="pl-4 lg:pl-0 lg:w-[85%] mx-auto py-4 text-xs">
