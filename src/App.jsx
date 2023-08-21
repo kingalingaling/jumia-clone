@@ -1,6 +1,7 @@
 import TopBannerComponent from "./components/TopBannerComponent";
 import Navbar from "./components/Navbar";
 import BannerComponent from "./components/BannerComponent";
+import CountdownComponent from "./components/CountdownComponent";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <p>Home {'>'} <span className="text-gray-400">Official Stores</span></p>
       </div>
       <BannerComponent />
+      <CountdownComponent />
     </div>
   );
 }
