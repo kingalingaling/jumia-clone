@@ -19,10 +19,10 @@ const NewsLetterComponent = () => {
               className="p-3 rounded-md"
               placeholder="&#9993; Enter E-mail Address"
             />
-            <button className="p-3 border border-white rounded-md mx-2">
+            <button className="p-3 border border-white hover:bg-white hover:text-black duration-200 rounded-md mx-2">
               MALE
             </button>
-            <button className="p-3 border border-white rounded-md">
+            <button className="p-3 border border-white hover:bg-white hover:text-black duration-200 rounded-md">
               FEMALE
             </button>
           </div>
@@ -33,10 +33,10 @@ const NewsLetterComponent = () => {
             <p>DOWNLOAD THE JUMIA FREE APP</p>
           </div>
           <div className="flex w-64 pt-4">
-            <button className="border border-white mr-1.5 rounded-md p-3">
+            <button className="border border-white hover:bg-white hover:text-black duration-200 mr-1.5 rounded-md p-3">
               App Store
             </button>
-            <button className="border border-white mr-1.5 rounded-md p-3">
+            <button className="border border-white hover:bg-white hover:text-black duration-200 mr-1.5 rounded-md p-3">
               Google Play
             </button>
           </div>
