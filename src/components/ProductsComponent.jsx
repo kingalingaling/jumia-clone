@@ -53,19 +53,21 @@ const ProductsComponent = () => {
           {products.map((product, index) => (
             <div
               key={index}
-              className="m-2 h-[350px] flex flex-col justify-between"
+              className="m-2 cursor-pointer hover:shadow-lg pb-3 pl-3 flex flex-col justify-between"
             >
-              <img src={product.image} className="h-[250px] w-auto" alt="" />
-              {product.official_store ? (
-                <p className="text-[9px] p-1 w-[60px] my-2 rounded-sm bg-[#276076] text-white">
-                  Official Store
-                </p>
-              ) : (
-                <p className="text-[9px] p-1 w-[60px] my-2 rounded-sm bg-[#02141b] text-white">
-                  Unofficial
-                </p>
-              )}
-              <p className="text-gray-600 text-xs h-9 font-semibold">
+              <img src={product.image} className="max-h-[250px] w-auto" alt="" />
+              <div className="h-10 ">
+                {product.official_store ? (
+                  <p className="text-[9px] p-1 w-[60px] my-2 rounded-sm bg-[#276076] text-white">
+                    Official Store
+                  </p>
+                ) : (
+                  <p className="text-[9px] p-1 w-[60px] my-2 rounded-sm bg-[#02141b] text-white">
+                    Unofficial
+                  </p>
+                )}
+              </div>
+              <p className="text-gray-600 text-xs h-10.5 font-semibold">
                 {product.name}
               </p>
               <div className="h-10">
