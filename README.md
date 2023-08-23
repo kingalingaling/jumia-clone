@@ -5,7 +5,7 @@ This is a clone of the Jumia Nigeria site for the AfriEd development
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [Our process](#our-process)
   - [Built with](#built-with)
@@ -19,9 +19,11 @@ This is a clone of the Jumia Nigeria site for the AfriEd development
 
 View the Jumia Nigeria site. Front end only
 
-### Screenshot
+### Screenshots
 
-![](./screenshot.png)
+![](./screenshots/screenshot1.png)
+![](./screenshots/screenshot2.png)
+![](./screenshots/screenshot3.png)
 
 Site uses white, black and orange colors
 
