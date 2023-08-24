@@ -55,7 +55,11 @@ const ProductsComponent = () => {
               key={index}
               className="m-2 cursor-pointer hover:shadow-lg pb-3 pl-3 flex flex-col justify-between"
             >
-              <img src={product.image} className="max-h-[250px] w-auto" alt="" />
+              <img
+                src={product.image}
+                className="max-h-[250px] w-auto"
+                alt=""
+              />
               <div className="h-10 ">
                 {product.official_store ? (
                   <p className="text-[9px] p-1 w-[60px] my-2 rounded-sm bg-[#276076] text-white">
@@ -71,10 +75,15 @@ const ProductsComponent = () => {
                 {product.name}
               </p>
               <div className="h-10">
-                <p className="font-bold">{formatCurrency(product.price)}</p>
+                <p className="font-bold">
+                  {formatCurrency(
+                    product.price - product.discount * product.price
+                  )}
+                </p>
                 {product.discount ? (
                   <p className="text-xs text-gray-500">
-                    {product.price - product.discount * product.price}
+                    <s>{formatCurrency(product.price)}</s>
+                    <span className="ml-3 text-orange-400">{product.discount * 100 + '%'}</span>
                   </p>
                 ) : (
                   ""
