@@ -6,6 +6,7 @@ import BrandPartnersComponent from "./components/BrandPartnersComponent";
 import ProductsComponent from "./components/ProductsComponent";
 import PolicyComponent from "./components/PolicyComponent";
 import NewsLetterComponent from "./components/NewsLetterComponent";
+import FooterComponent from "./components/FooterComponent";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <ProductsComponent />
       <PolicyComponent />
       <NewsLetterComponent />
+      <FooterComponent />
     </div>
   );
 }

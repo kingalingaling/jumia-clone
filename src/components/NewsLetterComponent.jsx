@@ -29,7 +29,7 @@ const NewsLetterComponent = () => {
         </div>
         <div className="hidden lg:block">
           <div className="flex justify-between">
-            <img src={jumiaLogo} className="w-[50px] mr-3" alt="" />
+            <img src={jumiaLogo} className="w-[35px] h-[35px] mr-3" alt="" />
             <p>DOWNLOAD THE JUMIA FREE APP</p>
           </div>
           <div className="flex w-64 pt-4">
